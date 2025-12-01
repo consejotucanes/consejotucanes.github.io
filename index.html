@@ -263,6 +263,18 @@
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; Tucanes del Castillo 2025</small></div>
         </div>
+        <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+        <script type="module">
+            import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+            createChat({
+                webhookUrl: 'https://y3ssic454.app.n8n.cloud/webhook/ae1c7124-bc52-41c9-b057-2e7697bb72e4/chat',
+                initialMessages: [
+                    '¡Hola! 👋',
+                    'Soy Tucancito, tu asistente de la administración, puedo ayudarte a gestionar tus PQRS'
+                ],
+            });
+        </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
