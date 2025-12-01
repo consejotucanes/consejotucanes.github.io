@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#documentos">Documentos</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#transparencia-financiera">Transparencia financiera</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#proyectos">Proyectos</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contacto-pqr">Contacto / PQR</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#calendario-eventos">Calendario Eventos</a></li>
                     </ul>
@@ -138,11 +138,11 @@
                 </div>
             </div>
         </section>
-        <!-- transparencia-financiera Section-->
-        <section class="page-section bg-primary text-white mb-0" id="transparencia-financiera">
+        <!-- Proyectos Section-->
+        <section class="page-section bg-primary text-white mb-0 portfolio" id="proyectos">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">Transparencia financiera</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">Proyectos</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -150,15 +150,33 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Button-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/proyecto.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- transparencia-financiera Section-->
+        <!-- <section class="page-section bg-primary text-white mb-0" id="transparencia-financiera">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-white">Transparencia financiera</h2>
+
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
                 <div class="row">
                     <table class="table  text-white">
-                        <!-- <thead>
-                            <tr>
-                            <th scope="col">Recaudo por cuotas ordinarias</th>
-                            <th scope="col">Otros ingresos</th>
-                            <th scope="col">Egresos</th>
-                            </tr>
-                        </thead> -->
+
                         <tbody>
                             <tr>
                                 <td>Recaudo por cuotas ordinarias</td>
@@ -176,7 +194,7 @@
                     </table>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="page-section portfolio" id="contacto-pqr">
             <div class="container">
                 <!-- Portfolio Section Heading-->
@@ -234,7 +252,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
-                    <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Números de contactos</h4>
                         <p class="lead mb-0">
                             Administración: 320 456 7890 </br>
@@ -250,10 +268,19 @@
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
                     </div> -->
                     <!-- Footer About Text-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <h4 class="text-uppercase mb-4">Horarios de atención presencial administración</h4>
                         <p class="lead mb-0">
                            Lunes, miércoles y viernes de 2:00 a 6:00 pm.
+                        </p>
+
+                        https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/pagos-aval/resultado-busqueda/realizar-pago?idConv=00026411&origen=buscar
+                    </div>
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">Link de Pagos</h4>
+                        <p class="lead mb-0">
+                            <a href="https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/pagos-aval/resultado-busqueda/realizar-pago?idConv=00026411&origen=buscar"
+                                target="_blank">Pagos Online de cuotas de administración y otros servicios.</a>
                         </p>
                     </div>
                 </div>
@@ -262,6 +289,48 @@
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; Tucanes del Castillo 2025</small></div>
+        </div>
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Recepción de Zonas Comunes</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/proyecto.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        Proyecto con carácter urgente y prioritario debido al vencimiento inminente de las pólizas de garantía de las zonas
+                                        comunes en abril de 2026. Antes de esta fecha límite, es imprescindible que la copropiedad realice un recibimiento
+                                        técnico especializado para identificar y documentar cualquier falla, deterioro o incumplimiento constructivo que
+                                        deba ser reclamado a la constructora.
+                                    </p>
+                                    <p class="mb-4 h6"> Progreso del proyecto</p>
+                                    <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-warning" style="width: 5%">5%</div>
+                                    </div>
+                                    <p class="mb-4">Recepción de Cotizaciones</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
         <script type="module">
